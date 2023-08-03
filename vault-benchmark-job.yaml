@@ -29,7 +29,7 @@ data:
       weight = 100
       config {
         auth {
-          kubernetes_host = "https://vaultbenchmarkk8s-dns-u9dpbj86.hcp.westus2.azmk8s.io"
+          kubernetes_host = "vaultbenchmarkk8s-dns-u9dpbj86.hcp.westus2.azmk8s.io"
         }
         role {
           name = "vault-benchmark-role"
