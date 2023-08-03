@@ -34,7 +34,7 @@ data:
           bound_service_account_names = ["vault-benchmark"]
           bound_service_account_namespaces = ["*"]
           token_max_ttl = "24h"
-          token_ttl = "1h"
+          token_ttl = "30m"
         }
       }
     }
