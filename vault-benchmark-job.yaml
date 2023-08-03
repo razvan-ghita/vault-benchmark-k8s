@@ -16,7 +16,7 @@ data:
   k8s.hcl: |
     # Basic Benchmark config options
     vault_addr = "https://vault-private-vault-959f2c14.23069dd1.z1.hashicorp.cloud:8200"
-    vault_token = "hvs.CAESIH2Xc9d7k8FDGIhfTMGzstZa-kwD3HxxfvoF6RxmAgnmGigKImh2cy5ncTBZbU1jMjVsY1p1czhIaFFjaVpXRzAuUTgxNXQQv_YH"
+    vault_token = "hvs.CAESIBUDQQFmKmBV5kzwMDoVCSFHL5SF-bh57jrimubS8PFEGigKImh2cy5BNjZrUTNsTE84b3J2RTdXUEU1TzEyWkEuUTgxNXQQtIwI"
     vault_namespace="admin"
     duration = "10s"
     report_mode = "terse"
