@@ -46,6 +46,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: vault-benchmark
+  namespace: vault-ns
 spec:
   backoffLimit: 0
   template:
