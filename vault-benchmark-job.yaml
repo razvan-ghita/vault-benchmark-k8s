@@ -6,6 +6,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: vault-benchmark
+  namespace: vault-ns
 
 ---
 apiVersion: v1
