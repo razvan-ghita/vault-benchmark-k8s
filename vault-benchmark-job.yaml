@@ -13,6 +13,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: vault-benchmark-configmap
+  namespace: vault-ns
 data:
   k8s.hcl: |
     # Basic Benchmark config options
